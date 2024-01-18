@@ -5,6 +5,7 @@
   tasks:
     - name: Create a sample file
       ansible.builtin.copy:
-        content: "Hello from Ansible!\nThis file was created by the playbook."
-      
+        content: "Hello this niranjan."
+        dest: "/home/ec2-user/ansible/hello.sh"
+
 
