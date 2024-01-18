@@ -6,5 +6,5 @@
     - name: Create a sample file
       ansible.builtin.copy:
         content: "Hello from Ansible!\nThis file was created by the playbook."
-        dest: "/path/to/ansible_project/sample_file.txt"
+      
 
