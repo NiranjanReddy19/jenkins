@@ -1,0 +1,9 @@
+# ansible_project/my_playbook.yml
+---
+- name: Your Playbook
+  hosts: localhost
+  tasks:
+    - name: Your Task
+      debug:
+        msg: "Hello from Ansible!"
+
